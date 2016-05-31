@@ -1,0 +1,6 @@
+
+class ModelMapper {
+	
+}
+
+export { ModelMapper }

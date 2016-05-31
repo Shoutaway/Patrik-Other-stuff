@@ -1,0 +1,7 @@
+
+
+interface IArrayUtility {
+	
+}
+
+export { IArrayUtility }

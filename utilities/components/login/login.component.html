@@ -1,0 +1,9 @@
+<form (ngSubmit)="onSubmit(loginModel)" #loginForm="ngForm">
+	<h1>Login</h1>
+	<input [(ngModel)]="loginModel.email" ngControl="userEmail" required placeholder="E-mail"> <br />
+    <input [(ngModel)]="loginModel.password" ngControl="userPassword" type="password" required  placeholder="Password" />
+	<br />
+	<input type="checkbox" [(ngModel)]="loginModel.remeberUser" />
+	<br />
+    <button type="submit" [disabled]="!loginForm.form.valid"> Login</button> 
+</form>

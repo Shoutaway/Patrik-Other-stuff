@@ -1,0 +1,3 @@
+interface IResult {
+	success: boolean;
+} 
